@@ -28,7 +28,6 @@ Button.prototype.render = function($where) {
 };
 
 Button.prototype.onClick = function(evt) {
-	// body...
 	console.log("Button '" + this.label + "' clicked!");
 };
 
